@@ -1,0 +1,94 @@
+.grey-line{
+    background-color:#f5f5f5;
+    padding: 8px 0;
+}
+
+.nav-link:hover{
+    color:#d5c8c8;
+}
+.main-logo img{
+    height: 65px;
+}
+.main-logo h1{
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+}
+.main-logo {
+    text-decoration: none;
+    color:black;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+}
+.block-photo{
+    background: url(../images/jake-johnson-XD9BSIU_Fjc-unsplash.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:  100% 50%;
+    padding: 50px 0;
+    margin: 40px 0;
+}
+.block-photo h2{
+    margin-bottom: 30px;
+}
+.block-photo ul{
+    margin: 50px 0;
+}
+.block-photo ul li{
+    margin: 2% 0;
+    font-size: 20px ;
+}
+/* ------photocard */
+.photo-card{
+    border:1px solid #d5c8c8;
+    margin-bottom: 20px;
+}
+.photo-card .desc{
+    padding: 30px;
+}
+.photo-card .desc ul{
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+.photo-card .desc li label{
+    display: inline-block;
+    width: 55%;
+    font-weight: bold;
+}
+.photo-card .desc li span{
+    display: inline-block;
+    width: 45%;
+    color:#969090;
+}
+.photo-card img{
+max-width: 100%;
+}
+.photo-card h2{
+    text-align: center;
+    margin: 20px 0;
+    padding-bottom: 20px;
+    border-bottom:1px solid rgb(198, 148, 148);
+}
